@@ -33,7 +33,7 @@
 					Map
 				</li></a>				
 				<div class="log"><img alt="MyServer Logo" class="logo" src="img/logo.png"></div>
-				<a href="donate.html"><li class="h">
+				<a href="donate.html#"><li class="h">
 					<div class="overlay"></div>
 					Donate
 				</li></a>
@@ -124,16 +124,19 @@
   <title>Рисунок на поле</title>
   <style type="text/css">
    TD.leftcol {
-    width: 550px; /* Ширина левой колонки с рисунком */
+    width: 540px; /* Ширина левой колонки с рисунком */
     vertical-align: left; 
    }
-  </style>
+   </style> 
 </div>
  <body>
   <table width="100%" cellspacing="0" cellpadding="0">
    <tr> 
-    <td class="leftcol"><img src="img/staff.png" 
-    width="500" height="426" alt="Вы не поверите, но это мы"></td>
+    <td class="leftcol">
+    <img src="img/staff.png"  
+    max-width: 500px;
+    width: 70%;
+	height="426" alt="Вы не поверите, но это мы"></td>
     <td valign="top"> 
 	<div>
 		<i class="fa fa-rocket fa-4x"></i>
@@ -160,8 +163,10 @@
 		</div>
 		<div id="contact">
 			<h2>КОНТАКТЫ</h2>
-			<p>Email - <a href="mailto:admin@myserver.com">pystoyplayer@gmail.com</a></p>
-			<p>Discord - <a href="https://discord.gg/SkY2Bw9SjR">discord.gg/SkY2Bw9SjR</a></p>
+			<ul class="social-icons">
+    <li><a href="mailto:pystoyplayer@gmail.com"><img src="https://cdn.icon-icons.com/icons2/3053/PNG/512/mail_macos_bigsur_icon_190003.png"/></a></li>
+    <li><a href="https://discord.gg/SkY2Bw9SjR"><img src="https://cdn.icon-icons.com/icons2/3053/PNG/512/discord_alt_macos_bigsur_icon_190237.png"/></a></li>
+</ul>
 		</div>
 	</div>
 	<footer>

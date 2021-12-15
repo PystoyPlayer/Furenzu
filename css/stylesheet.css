@@ -474,14 +474,21 @@ footer a {
 	.an-t {
 		font-size: 1.15em;
 	}
-         #cb:checked + #panel {
-             left: 220px; /* при наведении выдвигается на скрытые 200px + 20px отступы */
-         }
-         #cb:checked + #panel #hidden_panel {
-             left: 0; /* отступ слева */
-         }
-
-	footer {
-		justify-content: space-between;
-	}
+         .social-icons {
+  text-align: center;
+  }  
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+  width:100px;
+  height:100px;
+  margin-right: 40px;
+  }
 }
