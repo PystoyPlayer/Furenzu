@@ -488,6 +488,7 @@ footer a {
   }
 .social-icons li img {
   width:100px;
+  max-width: 100px;
   height:100px;
   margin-right: 40px;
   }
