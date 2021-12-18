@@ -271,7 +271,7 @@ hr {
 	justify-content: space-around;
 	flex-wrap: wrap;
 	margin: 30px auto 20px auto;
-	width: 99%;
+	width: 100%;
 }
 
 .staff {
@@ -304,7 +304,7 @@ hr {
 }
 
 .staff-team img {
-	width: 80%;
+	width: 90%;
 	margin-top: 30px;
 }
 
