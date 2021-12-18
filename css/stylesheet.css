@@ -270,7 +270,7 @@ hr {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	margin: 20px auto 10px auto;
+	margin: 30px auto 20px auto;
 	width: 99%;
 }
 
@@ -304,8 +304,8 @@ hr {
 }
 
 .staff-team img {
-	width: 100px;
-	margin-top: 20px;
+	width: 110px;
+	margin-top: 30px;
 }
 
 .ma {width: 78%; background: #f44141;}
@@ -460,8 +460,8 @@ footer a {
 	}
 	.staff-team img {
 		width: 500px;
-                 max-width: 99%;
-	         max-height="99%"
+                 max-width: 100%;
+	        
 	}
 	.staff-team > div {
 		padding: 13px;
