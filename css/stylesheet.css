@@ -459,7 +459,9 @@ footer a {
 		font-size: 4.5em;
 	}
 	.staff-team img {
-		width: 170px;
+		width: 500px;
+                 max-width: 90%;
+	         max-height="90%"
 	}
 	.staff-team > div {
 		padding: 13px;
@@ -487,14 +489,8 @@ footer a {
   border-bottom: none;
   }
 .social-icons li img {
-  width:100px;
-  max-width: 100px;
-  height:100px;
+  max-width: 96px;
+  max-height: 96px;
   margin-right: 40px;
   }
-.team li img {
-height: auto;
-max-width: 100%;
-width: auto;
-}
 }
