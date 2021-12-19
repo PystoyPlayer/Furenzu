@@ -304,8 +304,11 @@ hr {
 }
 
 .staff-team img {
-	width: 300px;
+	width: 500px;
 	margin-top: 5px;
+        max-width: 95%;
+        max-height="95%"
+
 }
 
 .ma {width: 78%; background: #f44141;}
@@ -457,11 +460,6 @@ footer a {
 	}
 	h1 {
 		font-size: 4.5em;
-	}
-	.staff-team img {
-		width: 500px;
-                 max-width: 95%;
-	         max-height="95%"
 	}
 	.staff-team > div {
 		padding: 13px;
