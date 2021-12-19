@@ -304,9 +304,9 @@ hr {
 }
 
 .staff-team img {
-	width: 800px;
+	width: 600px;
 	margin-top: 1px;
-        max-width: 80%;
+        max-width: 150%;
         max-height="80%"
 
 }
