@@ -305,7 +305,7 @@ hr {
 
 .staff-team img {
 	width: 1000px;
-	margin-top: 1px;
+	margin-top: 10px;
         max-width: 200%;
         max-height="200%"
 
@@ -395,7 +395,7 @@ footer a {
 
 /* RESPONSIVE LAYOUT */
 
-@media(min-width: 900px) {
+@media(min-width: 90px) {
 	/*NAV*/
 	.nav {
 		position: fixed;
