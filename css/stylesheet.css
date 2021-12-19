@@ -395,7 +395,7 @@ footer a {
 
 /* RESPONSIVE LAYOUT */
 
-@media(min-width: 90px) {
+@media(min-width: 900px) {
 	/*NAV*/
 	.nav {
 		position: fixed;
