@@ -825,6 +825,7 @@
   }
 } .u-section-7 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/skyblock-pvp1.png");
+  background-position: 50% 50%;
 }
 
 .u-section-7 .u-sheet-1 {
@@ -840,10 +841,6 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-7 {
-    background-position: 50% 50%;
-  }
-
   .u-section-7 .u-sheet-1 {
     min-height: 632px;
   }
@@ -855,6 +852,10 @@
 }
 
 @media (max-width: 991px) {
+   .u-section-7 {
+    background-position: 50% 50%;
+  }
+
   .u-section-7 .u-text-1 {
     width: auto;
     margin-top: 150px;
