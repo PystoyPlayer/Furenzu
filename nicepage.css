@@ -36039,7 +36039,6 @@ a.u-link.u-text-hover-grey-90:hover {
     width: 190px;
     height: 82px;
     margin-top: 9px;
-    transform: scale(1.05) translateX(0px) translateY(0px);
   }
 
   .u-header .u-text-1 {
@@ -36059,7 +36058,7 @@ a.u-link.u-text-hover-grey-90:hover {
     width: 40px;
     height: 40px;
     margin-top: -57px;
-    margin-right: -14px;
+    margin-right: -20px;
     margin-bottom: 30px;
   }
 }
