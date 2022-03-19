@@ -1,22 +1,15 @@
-
 .info {
-	font-size: 1.3em;
+  font-size: 1.3em;
 }
 
 .info span {
-	color: #3e93bf;
-	font-weight: bold;
+  color: #3e93bf;
+  font-weight: bold;
 }
 
 .ip {
-	cursor: pointer;
+  cursor: pointer;
 }
-
-/*begin-commonstyles library*//*!
- * froala_editor v4.0.6 (https://www.froala.com/wysiwyg-editor)
- * License https://froala.com/wysiwyg-editor/terms/
- * Copyright 2014-2021 Froala Labs
- */
 
 .fr-clearfix::after {
   clear: both;
@@ -35314,7 +35307,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-header .u-layout-cell-1 {
-    min-height: 84px;
+    min-height: 100px;
   }
 
   .u-header .u-layout-cell-2 {
@@ -35364,10 +35357,6 @@ a.u-link.u-text-hover-grey-90:hover {
     width: 49px;
     height: 49px;
     margin-top: 26px;
-  }
-
-  .u-header .u-layout-cell-1 {
-    min-height: 315px;
   }
 
   .u-header .u-container-layout-1 {
@@ -35425,10 +35414,6 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-top: 30px;
   }
 
-  .u-header .u-layout-cell-1 {
-    min-height: 198px;
-  }
-
   .u-header .u-layout-cell-3 {
     min-height: 198px;
   }
@@ -35457,7 +35442,7 @@ a.u-link.u-text-hover-grey-90:hover {
 } 
 
 .u-footer .u-sheet-1 {
-  min-height: 88px;
+  min-height: 81px;
 }
 
 .u-footer .u-image-1 {
@@ -35476,46 +35461,57 @@ a.u-link.u-text-hover-grey-90:hover {
   margin: -50px 100px 28px 796px;
 }
 @media (max-width: 1199px) {
+  .u-footer .u-sheet-1 {
+    min-height: 89px;
+  }
+
   .u-footer .u-text-1 {
     width: auto;
+    margin-top: -50px;
+    margin-bottom: 29px;
     margin-left: 590px;
   }
 }
 @media (max-width: 991px) {
-  .u-footer .u-image-1 {
-    margin-left: 50px;
-  }
-
-  .u-footer .u-text-1 {
-    margin-right: 50px;
-    margin-left: 426px;
-  }
-}
-@media (max-width: 767px) {
   .u-footer .u-sheet-1 {
-    min-height: 98px;
+    min-height: 108px;
   }
 
   .u-footer .u-image-1 {
-    height: 65px;
-    margin-top: 17px;
-    margin-left: 30px;
-  }
-
-  .u-footer .u-text-1 {
-    margin: -48px 30px 33px 270px;
-  }
-}
-@media (max-width: 575px) {
-  .u-footer .u-image-1 {
-    width: 136px;
-    height: 60px;
-    margin-top: 5px;
+    width: 120px;
+    height: 55px;
+    margin-top: 9px;
     margin-left: auto;
   }
 
   .u-footer .u-text-1 {
-    margin: -2px 33px 5px;
+    width: 244px;
+    font-size: 1rem;
+    margin: 10px auto 9px;
+  }
+}
+@media (max-width: 767px) {
+  .u-footer .u-sheet-1 {
+    min-height: 103px;
+  }
+
+  .u-footer .u-image-1 {
+    height: 50px;
+  }
+
+  .u-footer .u-text-1 {
+    margin-top: 9px;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 575px) {
+  .u-footer .u-sheet-1 {
+    min-height: 93px;
+  }
+
+  .u-footer .u-image-1 {
+    width: 97px;
+    height: 40px;
   }
 }
 
