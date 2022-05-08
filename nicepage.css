@@ -1,8 +1,15 @@
-/*begin-commonstyles library*//*!
- * froala_editor v4.0.6 (https://www.froala.com/wysiwyg-editor)
- * License https://froala.com/wysiwyg-editor/terms/
- * Copyright 2014-2021 Froala Labs
- */
+.info {
+  font-size: 1.3em;
+}
+
+.info span {
+  color: #3e93bf;
+  font-weight: bold;
+}
+
+.ip {
+  cursor: pointer;
+}
 
 .fr-clearfix::after {
   clear: both;
