@@ -5,7 +5,21 @@ button {
   cursor: pointer;
   color: #3e93bf;
   font-weight: bold;
-} 
+}
+
+.info {
+  font-size: 1.3em;
+}
+
+.info span {
+  color: #3e93bf;
+  font-weight: bold;
+}
+
+.ip {
+  cursor: pointer;
+  display:none;
+}
 
 .u-section-1 {
   background-position: 50% 50%;
