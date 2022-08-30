@@ -1,16 +1,3 @@
-.info {
-  font-size: 1.3em;
-}
-
-.info span {
-  color: #3e93bf;
-  font-weight: bold;
-}
-
-.ip {
-  cursor: pointer;
-}
-
 .fr-clearfix::after {
   clear: both;
   display: block;
