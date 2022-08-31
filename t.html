@@ -113,10 +113,10 @@
         $hours.textContent = hours < 10 ? '0' + hours : hours;
         $minutes.textContent = minutes < 10 ? '0' + minutes : minutes;
         $seconds.textContent = seconds < 10 ? '0' + seconds : seconds;
-        $days.dataset.title = declensionNum(days, ['дня', 'дня', 'дней']);
-        $hours.dataset.title = declensionNum(hours, ['часа', 'часа', 'часов']);
-        $minutes.dataset.title = declensionNum(minutes, ['минуты', 'минуты', 'минут']);
-        $seconds.dataset.title = declensionNum(seconds, ['секунды', 'секунды', 'секунд']);
+        $days.dataset.title = declensionNum(days, ['день', 'дня', 'дней']);
+        $hours.dataset.title = declensionNum(hours, ['час', 'часа', 'часов']);
+        $minutes.dataset.title = declensionNum(minutes, ['минуту', 'минуты', 'минут']);
+        $seconds.dataset.title = declensionNum(seconds, ['секунду', 'секунды', 'секунд']);
       }
       // получаем элементы, содержащие компоненты даты
       const $days = document.querySelector('.timer__days');
