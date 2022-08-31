@@ -71,6 +71,18 @@
       font-size: 14px;
     }
 
+    .title {
+      content: attr(data-title);
+      display: block;
+      position: absolute;
+      text-align: center;
+      left: 50%;
+      bottom: 90px;
+      width: 100%;
+      transform: translateX(-50%);
+      font-size: 14px;
+    }
+
     .timer__item:not(:last-child)::after {
       content: ':';
       position: absolute;
@@ -101,10 +113,10 @@
         $hours.textContent = hours < 10 ? '0' + hours : hours;
         $minutes.textContent = minutes < 10 ? '0' + minutes : minutes;
         $seconds.textContent = seconds < 10 ? '0' + seconds : seconds;
-        $days.dataset.title = declensionNum(days, ['день', 'дня', 'дней']);
-        $hours.dataset.title = declensionNum(hours, ['час', 'часа', 'часов']);
-        $minutes.dataset.title = declensionNum(minutes, ['минута', 'минуты', 'минут']);
-        $seconds.dataset.title = declensionNum(seconds, ['секунда', 'секунды', 'секунд']);
+        $days.dataset.title = declensionNum(days, ['дня', 'дня', 'дней']);
+        $hours.dataset.title = declensionNum(hours, ['часа', 'часа', 'часов']);
+        $minutes.dataset.title = declensionNum(minutes, ['минуты', 'минуты', 'минут']);
+        $seconds.dataset.title = declensionNum(seconds, ['секунды', 'секунды', 'секунд']);
       }
       // получаем элементы, содержащие компоненты даты
       const $days = document.querySelector('.timer__days');
@@ -119,9 +131,9 @@
   </script>
 </head>
 <body>
-
   <div class="timer">
     <div class="timer__items">
+    <div class="title">BOSS FIGHT IN...</div>
       <div class="timer__item timer__days">00</div>
       <div class="timer__item timer__hours">00</div>
       <div class="timer__item timer__minutes">00</div>
@@ -130,5 +142,3 @@
   </div>
 </body>
 </html>
-
-            
